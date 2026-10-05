@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CLC Web Application</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1>CLC</h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="menuBtn" class="menu-btn">☰</button>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to CLC</h2>
+                <p>
+                    A simple and modern web application designed
+                    to provide an easy-to-use experience.
+                </p>
+
+                <button id="startBtn" class="btn">
+                    Get Started
+                </button>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About CLC</h2>
+
+            <p>
+                CLC provides a user-friendly platform where users
+                can access the application's features and services.
+            </p>
+        </section>
+
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+
+            <div class="service-container">
+
+                <div class="service-card">
+                    <h3>Service 1</h3>
+                    <p>
+                        Description of the first CLC service.
+                    </p>
+                    <button class="btn">Learn More</button>
+                </div>
+
+                <div class="service-card">
+                    <h3>Service 2</h3>
+                    <p>
+                        Description of the second CLC service.
+                    </p>
+                    <button class="btn">Learn More</button>
+                </div>
+
+                <div class="service-card">
+                    <h3>Service 3</h3>
+                    <p>
+                        Description of the third CLC service.
+                    </p>
+                    <button class="btn">Learn More</button>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <h2>Contact Us</h2>
+
+            <form id="contactForm">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Enter your message"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn">
+                    Submit
+                </button>
+
+            </form>
+
+            <p id="formMessage"></p>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            &copy; 2026 CLC Web Application. All Rights Reserved.
+        </p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
